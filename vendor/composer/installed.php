@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'nette/web-project',
-        'pretty_version' => 'v3.1.13',
-        'version' => '3.1.13.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => 'e0e46450f346abd5208dc5b591f103006e59c51c',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -182,13 +182,22 @@
             'dev_requirement' => false,
         ),
         'nette/web-project' => array(
-            'pretty_version' => 'v3.1.13',
-            'version' => '3.1.13.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'e0e46450f346abd5208dc5b591f103006e59c51c',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
             'dev_requirement' => false,
+        ),
+        'phpstan/phpstan' => array(
+            'pretty_version' => '1.10.5',
+            'version' => '1.10.5.0',
+            'reference' => '1fb6f494d82455151ecf15c5c191923f5d84324e',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpstan/phpstan',
+            'aliases' => array(),
+            'dev_requirement' => true,
         ),
         'symfony/thanks' => array(
             'pretty_version' => 'v1.2.10',
