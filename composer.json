@@ -21,7 +21,7 @@
 		"tracy/tracy": "^2.9"
 	},
 	"require-dev": {
-		"nette/tester": "^2.4",
+		"nette/tester": "^2.5",
 		"symfony/thanks": "^1",
 		"phpstan/phpstan": "^1.10"
 	},
