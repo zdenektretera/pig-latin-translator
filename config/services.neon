@@ -8,3 +8,6 @@ search:
 
 services:
 	- App\Router\RouterFactory::createRouter
+
+	translateService: App\Model\Services\TranslateService
+	translateControlFactory: App\Controls\TranslateControl\TranslateControlFactory
